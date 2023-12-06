@@ -53,3 +53,5 @@ class AnimeDex:
             "results"
         ]
         return data
+
+#kawaiiplay
