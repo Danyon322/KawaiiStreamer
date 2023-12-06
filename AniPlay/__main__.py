@@ -9,7 +9,7 @@ loop = asyncio.get_event_loop()
 
 async def init():
     for module in ALL_MODULES:
-        importlib.import_module("AniPlay.plugins." + module)
+        importlib.import_module("KawaiiPlay.plugins." + module)
     print("[INFO]: Imported Modules Successfully")
 
     await app.start()
