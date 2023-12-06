@@ -7,3 +7,5 @@ app = Client(
     api_hash=API_HASH,
     bot_token=TOKEN
 )
+
+#bot-connection-part
