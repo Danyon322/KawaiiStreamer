@@ -11,7 +11,7 @@ from AniPlay.plugins.ErrorHandler import CMDErrorHandler
 async def start(_, message: Message):
     try:
         await message.reply_text(
-            "Bot Is Online...\n\nSearch Animes Using /search or /s"
+            "Kawaii Streamer Is Online...\n\nSearch Animes Using /search or /s"
         )
     except:
         return
@@ -47,4 +47,4 @@ async def searchCMD(_, message: Message):
 @app.on_message(filters.command(["report"]))
 @CMDErrorHandler
 async def reportCMD(_, message: Message):
-    await message.reply_text("Report Bugs Here: @TechZBots_Support")
+    await message.reply_text("Report Bugs Here: @KawaiiAnimeChat")
