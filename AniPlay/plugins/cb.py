@@ -193,3 +193,5 @@ async def switch_anime(_, query: CallbackQuery):
     pos = int(pos)
     current = data[0][pos]
     await query.edit_message_reply_markup(reply_markup=InlineKeyboardMarkup(current))
+
+#kawaiiplay
